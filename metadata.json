@@ -1,0 +1,6 @@
+{
+  "name": "90 Days - Habit Tracker",
+  "description": "Transform your life in 90 consecutive days. A global, production-ready habit tracking platform with 30-day phases, streak analytics, and offline PWA support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

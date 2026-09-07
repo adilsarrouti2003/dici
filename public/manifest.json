@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "90 Days - Habit Tracker",
+  "short_name": "90 Days",
+  "description": "Transform your life in 90 consecutive days with daily habit tracking, streak analytics, and 30-day phases.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d284f",
+  "theme_color": "#0d284f",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

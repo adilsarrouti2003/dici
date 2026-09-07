@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07172c"/>
+      <stop offset="100%" stop-color="#0d284f"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe066"/>
+      <stop offset="100%" stop-color="#ffb703"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00a3e8"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)"/>
+  
+  <!-- Outer glowing decorative circle -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#1e3a64" stroke-width="8" opacity="0.6"/>
+  
+  <!-- Progress arc (90 days metaphor) -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="url(#cyanGrad)" stroke-width="12" stroke-dasharray="942 314" stroke-linecap="round" transform="rotate(-90 256 256)"/>
+  
+  <!-- Accent bars matching the PDF header -->
+  <rect x="130" y="110" width="100" height="10" rx="5" fill="url(#cyanGrad)"/>
+  <rect x="235" y="110" width="45" height="10" rx="5" fill="url(#goldGrad)"/>
+  <rect x="285" y="110" width="100" height="10" rx="5" fill="url(#cyanGrad)"/>
+  
+  <!-- "90" Display Text -->
+  <text x="256" y="295" font-family="'Cairo', system-ui, sans-serif" font-size="160" font-weight="900" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="-4">90</text>
+  
+  <!-- "DAYS" Label -->
+  <text x="256" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="8">DAYS</text>
+  
+  <!-- Checkmark icon bottom badge -->
+  <circle cx="256" cy="415" r="24" fill="#00a3e8"/>
+  <path d="M246 415 l7 7 l14 -14" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
